@@ -1,0 +1,48 @@
+{
+    "name": "Tienda",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "properties": {
+      "storeId": {
+        "type": "number",
+        "required": false,
+        "id": true
+      },
+      "storeCodeId": {
+        "type": "string",
+        "required": false
+      },
+      "storeName": {
+        "type": "string",
+        "required": false
+      },
+      "storeAddress": {
+        "type": "string",
+        "required": false
+      },
+      "storePhone": {
+        "type": "string",
+        "required": false
+      },
+      "storeInCharge": {
+        "type": "string",
+        "required": false
+      },
+      "storeChk": {
+        "type": "string",
+        "required": false
+      },
+      "storeSts": {
+        "type": "string",
+        "required": false
+      },
+      "storeErika": {
+      "type": "number",
+      "required": false
+      }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+  }

@@ -58,6 +58,10 @@
     "dataSource": "destinyDatasource",
     "public": true
   },
+  "Tienda": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
   "Report": {
     "dataSource": "destinyDatasource",
     "public": true

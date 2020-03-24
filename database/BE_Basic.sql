@@ -373,7 +373,8 @@ CREATE TABLE `Store` (
   `storePhone` varchar(100) COLLATE utf8_spanish_ci DEFAULT NULL,
   `storeInCharge` varchar(100) COLLATE utf8_spanish_ci DEFAULT NULL,
   `storeChk` varchar(1) COLLATE utf8_spanish_ci DEFAULT NULL,
-  `storeSts` varchar(1) COLLATE utf8_spanish_ci DEFAULT NULL
+  `storeSts` varchar(1) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `storeErika` int(11) COLLATE utf8_spanish_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 --
@@ -387,6 +388,28 @@ INSERT INTO `Store` (`storeId`, `storeCodeId`, `storeName`, `storeAddress`, `sto
 (4, '04', 'Tienda04', 'Avenida04', '04040404', '0004', NULL, NULL);
 
 -- --------------------------------------------------------
+
+
+
+
+--
+-- Estructura de tabla para la tabla `Tienda`
+--
+
+DROP TABLE IF EXISTS `Tienda`;
+CREATE TABLE `Tienda` (
+  `storeId` int(11) NOT NULL,
+  `storeCodeId` varchar(100) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `storeName` varchar(255) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `storeAddress` longtext COLLATE utf8_spanish_ci DEFAULT NULL,
+  `storePhone` varchar(100) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `storeInCharge` varchar(100) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `storeChk` varchar(1) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `storeSts` varchar(1) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `storeErika` int(11) COLLATE utf8_spanish_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+
 
 --
 -- Estructura de tabla para la tabla `User`
