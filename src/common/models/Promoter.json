@@ -1,0 +1,40 @@
+{
+  "name": "Promoter",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "proId": {
+      "type": "number",
+      "required": false,
+      "id": true
+    },
+    "proFirstName": {
+      "type": "string",
+      "required": false
+    },
+    "proLastName": {
+      "type": "string",
+      "required": false
+    },
+    "proPromoterCode": {
+      "type": "string",
+      "required": false
+    },
+    "proStoreCodeId": {
+      "type": "string",
+      "required": false
+    },
+    "proChk": {
+      "type": "string",
+      "required": false
+    },
+    "proSts": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Affiliate",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "affId": {
+      "type": "number",
+      "required": false,
+      "id": true
+    },
+    "affAffiliateCode": {
+      "type": "string",
+      "required": false
+    },
+    "affStoreCodeId": {
+      "type": "string",
+      "required": false
+    },
+    "affFirstName": {
+      "type": "string",
+      "required": false
+    },
+    "affLastName": {
+      "type": "string",
+      "required": false
+    },
+    "affChk": {
+      "type": "string",
+      "required": false
+    },
+    "affSts": {
+      "type": "string",
+      "required": false
+    },
+    "affPromoterJSON": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

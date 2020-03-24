@@ -1,0 +1,60 @@
+{
+  "name": "Membership",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "memId": {
+      "type": "number",
+      "required": false,
+      "id": true
+    },
+    "memCustomerId": {
+      "type": "string",
+      "required": false
+    },
+    "memFirstName": {
+      "type": "string",
+      "required": false
+    },
+    "memLastName": {
+      "type": "string",
+      "required": false
+    },
+    "memStoreId": {
+      "type": "string",
+      "required": false
+    },
+    "memDate": {
+      "type": "string",
+      "required": false
+    },
+    "memBirthDate": {
+      "type": "string",
+      "required": false
+    },
+    "memGender": {
+      "type": "string",
+      "required": false
+    },
+    "memAffiliateCode": {
+      "type": "string",
+      "required": false
+    },
+    "memChk": {
+      "type": "string",
+      "required": false
+    },
+    "memSts": {
+      "type": "string",
+      "required": false
+    },
+    "memPromoterJSON": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

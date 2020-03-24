@@ -1,0 +1,32 @@
+{
+  "name": "Organization",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "orgId": {
+      "type": "string",
+      "required": false,
+      "id": true
+    },
+    "orgFullName": {
+      "type": "string",
+      "required": false
+    },
+    "orgProfileData": {
+      "type": "string",
+      "required": false
+    },
+    "orgSalesPromoterId": {
+      "type": "string",
+      "required": false
+    },
+    "orgStatus": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

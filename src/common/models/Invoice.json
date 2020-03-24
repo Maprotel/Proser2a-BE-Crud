@@ -1,0 +1,56 @@
+{
+  "name": "Invoice",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "invId": {
+      "type": "string",
+      "required": false,
+      "id": true
+    },
+    "invData": {
+      "type": "string",
+      "required": false
+    },
+    "invDataDetail": {
+      "type": "string",
+      "required": false
+    },
+    "invDate": {
+      "type": "string",
+      "required": false
+    },
+    "invSalesPromoterId": {
+      "type": "string",
+      "required": false
+    },
+    "invOrganizationId": {
+      "type": "string",
+      "required": false
+    },
+    "invOrganizationDate": {
+      "type": "string",
+      "required": false
+    },
+    "InvComisionable": {
+      "type": "string",
+      "required": false
+    },
+    "invBaseValue": {
+      "type": "number",
+      "required": false
+    },
+    "invRules": {
+      "type": "string",
+      "required": false
+    },
+    "invCommision": {
+      "type": "number",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

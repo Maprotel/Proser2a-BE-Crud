@@ -1,0 +1,69 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ]
+  },
+  "User": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "AccessToken": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "ACL": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "RoleMapping": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "Role": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "Userbase": {
+    "dataSource": "destinyDatasource",
+    "public": true,
+    "options": {
+      "emailVerificationRequired": false
+    }
+  },
+  "Invoice": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "Transaction": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "Configuration": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "Affiliate": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "Promoter": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "Store": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "Report": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "Membership": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  }
+}
