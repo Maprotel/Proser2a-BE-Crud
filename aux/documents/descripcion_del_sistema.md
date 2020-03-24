@@ -23,4 +23,3 @@ Usamos el término organización para referirnos a entidades de tipo jurídico y
 Preguntas... 
 Auto registro o registro asistido
 Numero de id de la promoción
-
