@@ -58,7 +58,87 @@
     "dataSource": "destinyDatasource",
     "public": true
   },
-  "Tienda": {
+  "AgentException": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+   "AgentPlan": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "AuxColor": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "AuxHour": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "AuxInterval": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "AuxLine": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "Employee": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "InvAgent": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "InvAgentRole": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "InvBreak": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "InvCalendar": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "InvCalendarDay": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "InvCampaign": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "InvClient": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "InvQueue": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "InvQueueConfig": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "InvScale": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "InvSchedule": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "InvScheduleDay": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "InvService": {
+    "dataSource": "destinyDatasource",
+    "public": true
+  },
+  "InvSupervisor": {
     "dataSource": "destinyDatasource",
     "public": true
   },
@@ -66,6 +146,7 @@
     "dataSource": "destinyDatasource",
     "public": true
   },
+  
   "Membership": {
     "dataSource": "destinyDatasource",
     "public": true
