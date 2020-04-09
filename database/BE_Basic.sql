@@ -255,7 +255,7 @@ INSERT INTO `Configuration` (`key`, `value`) VALUES
 DROP TABLE IF EXISTS `Invoice`;
 CREATE TABLE `Invoice` (
   `invId` int(11) NOT NULL,
-  `invData` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT 'NULL',
+  `invData` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL,
   `invDataDetail` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL,
   `invDate` date DEFAULT NULL,
   `invSalesPromoterId` varchar(100) COLLATE utf8_spanish_ci DEFAULT NULL,
